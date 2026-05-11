@@ -1,19 +1,12 @@
+# Restaurant Ordering App
+
+This is a solo project that focuses on important JavaScript concepts like updating the page with JavaScript, handling button clicks, using arrays, and working with user input. The purpose of this mini project was to create a restaurant ordering app where users can add food items to their order, remove items from the cart, and complete a simple checkout process using a fake payment form. The menu items are stored in JavaScript and are displayed dynamically on the page based on user interaction. This project idea came from the Scrimba Fullstack Developer Path, where students complete solo projects after finishing different modules and lessons. Because this project was built in the Scrimba environment, there may be extra whitespace when running the program.
+
 # Getting Started
+
 Install the dependencies and run the project
-```
+
+```bash
 npm install
 npm start
 ```
-
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
