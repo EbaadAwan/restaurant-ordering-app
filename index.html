@@ -1,0 +1,48 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <!-- Google Font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h3>Jimmy's Diner</h3>
+            <h4>The best burgers and pizzas in town.</h2>
+        </header>
+        
+        <div class="container" id="container">
+        </div>
+        
+        <h5>Your Order</h5>
+        <div class="checkout" id="checkout">
+        </div>
+        <div class="underline" id="underline"></div>
+        <div class="total-price hidden" id="total-price">
+            <p class="total-p">Total Price:</p>
+            <p class="total-money" id="total"></p>
+        </div>
+        <button class="checkout-btn hidden" id="checkout-btn">Complete order</button>
+        
+        <div class="modal" id="modal">
+            <h6>Enter card details</h6>
+            <form id="myForm">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <input type="text" id="card-number" placeholder="Enter your card number" required>
+                <input type="text" id="cvv" placeholder="Enter CVV" required>
+                <button id="pay">Pay</button>
+            <form>
+        </div>
+        
+        <div class="thanks" id="thanks">
+            <p id="m"></p>
+        </div>
+        
+	<script src="index.js" type="module"></script>
+    <script type="module">import uuid from 'https://cdn.jsdelivr.net/npm/uuid@13.0.0/+esm'</script>
+    </body>
+</html>
+
